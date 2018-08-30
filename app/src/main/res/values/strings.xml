@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TopTenSearch</string>
+    <string name="search_hint">Enter query</string>
+    <string name="search_button_text">Search</string>
+    <string name="nothing_found">Your search did not match any documents</string>
+    <string name="no_connection">Unable to set connection</string>
+
+</resources>

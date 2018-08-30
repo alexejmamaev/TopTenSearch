@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TopTenSearch</string>
+    <string name="no_connection">Не удалось установить соединение</string>
+    <string name="search_button_text">Найти</string>
+    <string name="search_hint">Введите запрос</string>
+    <string name="nothing_found">По запросу ничего не найдено</string>
+</resources>
