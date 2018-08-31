@@ -88,6 +88,7 @@ public class AppRepository {
                 public void onFailure(Call<Example> call, Throwable t) {
                 Toast.makeText(context, "Unable to set connection",
                         Toast.LENGTH_SHORT).show();
+                listener.onFailure();
                 }
             });
 

@@ -92,6 +92,11 @@ public class SearchActivity extends AppCompatActivity implements EventListener {
         }
     }
 
+    @Override
+    public void onFailure() {
+        mLoadingIndicator.setVisibility(View.GONE);
+    }
+
     private void setUpViewModel(){
        SearchViewModelFactory factory = new SearchViewModelFactory(query, this);
        SearchViewModel viewModel = ViewModelProviders.of(this, factory)
